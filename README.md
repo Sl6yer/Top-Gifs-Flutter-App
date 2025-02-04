@@ -1,16 +1,22 @@
-# top_gifs
+# Top Gifs Flutter
 
-A new Flutter project.
+**Top Gifs** é um aplicativo simples e intuitivo desenvolvido com **Flutter**, que permite aos usuários visualizar e pesquisar GIFs populares diretamente do **Giphy**. O aplicativo utiliza a **API do Giphy** para exibir uma grade de GIFs com a capacidade de pesquisar por palavras-chave e exibir resultados relevantes.
 
-## Getting Started
+## Funcionalidades
 
-This project is a starting point for a Flutter application.
+- **Tela principal com GIFs em destaque:** Exibe uma lista de GIFs em tendência utilizando a API do Giphy.
+- **Busca personalizada:** Permite que os usuários pesquisem GIFs através de um campo de texto.
+- **Visualização detalhada:** Ao clicar em um GIF, os usuários podem visualizar o GIF em tela cheia e compartilhar diretamente.
+- **Carregamento dinâmico:** Exibe mais GIFs conforme o usuário rola para baixo, com a funcionalidade de carregar mais GIFs.
 
-A few resources to get you started if this is your first Flutter project:
+## Como usar
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. **Pesquisar GIFs:** Utilize a barra de pesquisa na parte superior da tela para buscar por um GIF específico.
+2. **Visualização de GIF:** Toque em qualquer GIF para visualizá-lo em tela cheia.
+3. **Compartilhar GIF:** Toque e segure em um GIF para compartilhar via outros aplicativos.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Tecnologias
+
+- **Flutter**: Framework para criar o aplicativo.
+- **Giphy API**: Para acessar a base de dados de GIFs.
+- **Share Plus**: Para compartilhar GIFs com outros aplicativos.
